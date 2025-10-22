@@ -1,0 +1,80 @@
+
+.vscode/
+
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/settings.json
+
+
+# ===================================================================
+# C & C++ - Arquivos de Build e Binários
+# ===================================================================
+
+# Diretórios de build comuns (onde os binários são gerados)
+build/
+bin/
+out/
+Debug/
+Release/
+x64/
+x86/
+
+# Arquivos de objeto (resultados intermediários da compilação)
+*.o
+*.obj
+*.o.d
+
+# Bibliotecas (estáticas e dinâmicas)
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Executáveis
+*.exe
+*.out
+*.app
+build/
+
+# Arquivos gerados por Make/CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cbp
+
+# Arquivos de debug e estado
+*.pdb
+*.idb
+*.gdb
+*.suo
+
+# Headers pré-compilados
+*.pch
+
+# ===================================================================
+# Arquivos de Sistema Operacional (OS)
+# ===================================================================
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+ntuser.dat
+ntuser.dat.LOG*
+
+# Linux (arquivos de backup de editores como Vim/Emacs)
+*~
+.#*
+*.swp
+*.swo
