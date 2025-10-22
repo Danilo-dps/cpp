@@ -1,7 +1,7 @@
 // Main.cpp
 #include <iostream>
 #include <string>
-#include "GradeBook.h" // <-- CORRECT: Include the .h file, NOT the .cpp file
+#include "GradeBook.h"
 
 using std::cout;
 using std::string;
