@@ -2,15 +2,20 @@
 
 using namespace std;
 
+// ela espera o valor do ponteiro, ela não consegue modificar o valor apontado após usar new
 void valor_alocando_memoria(int* p)
 {
   p = new int;
   *p = 7;
 }
+
+// ela espera o valor do ponteiro, você consegue modificar o valor apontado
 void valor_modificando_memoria(int* p)
 {
   *p = 8;
 }
+
+// ela espera a referência do ponteiro, ela consegue modificar o valor do ponteiro após usar new, e também o endereço apontado
 void referencia(int*& p)
 {
   p = new int;
