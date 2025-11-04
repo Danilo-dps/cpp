@@ -6,7 +6,7 @@ using std::endl;
 int main(){
 
     int a = 10;
-    int& aRef = a; 
+    int& aRef = a; //variáveis do tipo referência não possuem endereço próprio, elas não ocupam espaço na memória
 
     cout << endl;
     cout << "Valor inicial, da variável 'a': " << a << endl;

@@ -7,6 +7,8 @@ int main(){
 
     int a = 10;
     int& aRef = a; 
+    
+    //int& bRef; // errado: é necessário inicializar uma referência no momento da sua declaração
 
     //int aRef = &a; errado: int& aRef = &a; 
     //um valor de tipo "int *" não pode ser utilizado para inicializar uma entidade do tipo "int"
